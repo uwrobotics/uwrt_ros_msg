@@ -8,7 +8,7 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/odrive_cmd.srv"
+  "srv/OdriveCmd.srv"
 )
 
 # find dependencies
