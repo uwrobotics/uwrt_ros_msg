@@ -1,6 +1,6 @@
 # UWRT_ROS_MSG
 
-## UWRT_ROS_MSG/srv/cmd.srv
+## UWRT_ROS_MSG/cmd/cmd.cmd
 
 ### Axis-id: can be int or str
 
@@ -17,3 +17,10 @@ str == 'Set_Axis_State'
 str == ['None', 'input_vel: 3, input_pos: 0']
 
 capable of converting back to dict
+
+
+## Cmd_Response
+
+bool status
+
+string timestamp
