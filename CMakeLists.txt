@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(SRV_FILE
-  "srv/OdriveCmd.srv")
+  "msg/OdriveCmd.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${SRV_FILE}
