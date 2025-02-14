@@ -9,11 +9,12 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-set(SRV_FILE
-  "msg/OdriveCmd.msg")
+set(MSG_FILE
+  "msg/OdriveCmd.msg"
+  "msg/MsgResponse.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${SRV_FILE}
+  ${MSG_FILE}
 )
 
 if(BUILD_TESTING)
